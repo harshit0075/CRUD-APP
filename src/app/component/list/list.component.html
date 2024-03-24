@@ -13,7 +13,11 @@
       <th scope="row">{{ item.id }}</th>
       <td>{{ item.name }}</td>
       <td>{{ item.email }}</td>
-      <td><span (click)="deleteUser(item.id )">Delete</span></td>
+      <td>
+        <i (click)="deleteUser(item.id )" class="fa fa-trash"></i>
+        &nbsp;
+      <a routerLink="/edit/{{ item.id }}"><i class="fa fa-edit"></i></a>
+      </td>
     </tr>
   </tbody>
 </table>

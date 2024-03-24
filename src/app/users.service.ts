@@ -21,5 +21,14 @@ return this.http.post(this.url, user)
 // console.log(id);
 return this.http.delete(`${this.url}/${id}`)
 
-  }  
+  }
+
+  getUserById(id:any){
+    return this.http.get(`${this.url}/${id}`)
+
+  }
+
+  updateUser(id:any,user:any){
+    return this.http.put(`${this.url}/${id}`,user)
+  }
 }
