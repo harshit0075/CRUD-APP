@@ -46,4 +46,9 @@ json-server --watch db.json
 
 6. To Run Angular App
 ng serve
+```
 
+**Deployment**
+The application is deployed at: https://6600850fbeabdc1df09ee635--astonishing-froyo-d1d4b5.netlify.app/
+
+Feel free to explore the deployed version!
