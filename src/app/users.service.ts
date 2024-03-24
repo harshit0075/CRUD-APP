@@ -16,4 +16,10 @@ console.log(user);
 return this.http.post(this.url, user)
 
   }
+
+  deleteUser(id:any){
+// console.log(id);
+return this.http.delete(`${this.url}/${id}`)
+
+  }  
 }

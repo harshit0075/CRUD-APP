@@ -19,4 +19,14 @@ export class ListComponent implements OnInit {
     });
   }
 
+  deleteUser(user_id:any){
+    console.log(user_id);
+    this.user.deleteUser(user_id).subscribe((res)=>{
+      // console.log(res);
+      this.ngOnInit();
+      
+    })
+   
+  }
+
 }
