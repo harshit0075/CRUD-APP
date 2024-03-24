@@ -15,17 +15,22 @@ export class AddComponent implements OnInit {
     email:new FormControl(''),
   }
   )
-
+message:boolean=false;
   ngOnInit(): void {
     
   }
   SaveUser(){
     // console.log(this.addUser.value);
     this.user.SaveUser(this.addUser.value).subscribe((res)=>{
-      console.log(res);
+      // console.log(res);
+      this.message=true;
+      this.addUser.reset({});
       
     })
     
+  }
+  removeMessage(){
+    this.message=false;
   }
 
 }
