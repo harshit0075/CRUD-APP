@@ -1,19 +1,19 @@
 {
   "user": [
     {
-      "name": "Html",
-      "email": "b@gmail.com",
-      "id": "2"
+      "name": "React-learning",
+      "email": "r@gmail.com",
+      "id": "8ebf"
     },
     {
-      "name": "Angular-learning",
-      "email": "angular@gmail.com",
-      "id": "c0e6"
+      "name": "Arya-angular",
+      "email": "a@gmail.com",
+      "id": "3d0d"
     },
     {
-      "id": "f800",
-      "name": "Arya",
-      "email": "arya@gmail.com"
+      "id": "fc86",
+      "name": "I am Learning Angular",
+      "email": "Abhi@gmail.com"
     }
   ]
 }
